@@ -1,0 +1,35 @@
+{
+  "name": "backend",
+  "type": "module",
+  "engines": {
+    "node": ">=14"
+  },
+  "version": "1.0.0",
+  "main": "src/app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/sakurayang/socket-chat-backend.git"
+  },
+  "author": "sakurayang <1304274443@qq.com>",
+  "license": "MIT",
+  "scripts": {
+    "serve": "node src/app.js",
+    "start": "node src/app.js",
+    "lint": "prettier"
+  },
+  "dependencies": {
+    "log4js": "^6.4.5",
+    "lowdb": "^3.0.0",
+    "nanoid": "^3.0",
+    "uWebSockets.js": "github:uNetworking/uWebSockets.js#v20.4.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.13.0",
+    "prettier": "^2.6.2"
+  },
+  "description": "> TCP/IP 课程的作业",
+  "bugs": {
+    "url": "https://github.com/sakurayang/socket-chat-backend/issues"
+  },
+  "homepage": "https://github.com/sakurayang/socket-chat-backend#readme"
+}
